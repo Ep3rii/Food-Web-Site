@@ -1,0 +1,127 @@
+/* Definir estilos gerais */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+  /* Estilos para o cabeçalho */
+  header {
+  background-color: #F8E7D3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  }
+  
+  h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #CE3737;
+  
+  }
+  
+  nav ul {
+  list-style: none;
+  display: flex;
+  }
+  
+  nav ul li {
+  margin-left: 1rem;
+  }
+  
+  nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  }
+  
+  nav ul li a:hover {
+  color: #CE3737;
+  }
+  
+  main {
+    padding-top: 100px; /* Altura do cabeçalho */
+  }
+
+  /* Estilos para o destaque */
+  #destaque {
+  background-image: url("/comidas deliciosas/src/image/feijoada.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 5rem 1rem;
+  text-align: center;
+  }
+  
+  #destaque h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  }
+  
+  #destaque p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  }
+  
+  .botao {
+  background-color: #CE3737;
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  }
+  
+  .botao:hover {
+  background-color: #333;
+  }
+  
+  /* Estilos para o cardápio */
+  #cardapio {
+  padding: 5rem 1rem;
+  text-align: center;
+  }
+  
+  #cardapio h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  }
+  
+  #cardapio ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  }
+  
+  #cardapio li {
+  border: 1px solid #CE3737;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 1rem 0;
+  overflow: hidden;
+  width: 100%;
+  }
+  
+  #cardapio img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  }
+  
+  #cardapio h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem
+  }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    
+    <title>Comidas Deliciosas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Comidas Deliciosas</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Cardápio</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="destaque">
+        <h2>Experimente nossas comidas deliciosas</h2>
+        <p>Temos uma grande variedade de pratos para você escolher. Todos feitos com ingredientes frescos e de alta qualidade.</p>
+        <a href="#" class="botao">Ver Cardápio</a>
+      </section>
+
+      <section id="cardapio">
+        <h2>Cardápio</h2>
+        <ul>
+          <li>
+            <img src="src/image/baioddois.jpg" alt="Baião de Dois">
+            <h3>Baião de Dois</h3>
+            <p>Descrição do prato 1</p>
+            <a href="#" class="botao">Adicionar ao Carrinho</a>
+          </li>
+          <li>
+            <img src="src/image/camarao.jpg" alt="Camarão">
+            <h3>Camarão</h3>
+            <p>Descrição do prato 2</p>
+            <a href="#" class="botao">Adicionar ao Carrinho</a>
+          </li>
+          <li>
+            <img src="src/image/feijoada.jpg" alt="Feijoada">
+            <h3>Feijoada</h3>
+            <p>Descrição do prato 3</p>
+            <a href="#" class="botao">Adicionar ao Carrinho</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa dedicada a fazer comida de alta qualidade e saborosa. Nossa equipe é composta por chefs talentosos que estão sempre experimentando novas receitas para surpreender nossos clientes.</p>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+          <button type="submit" class="botao">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Todos os direitos reservados &copy; Comidas Deliciosas</p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
